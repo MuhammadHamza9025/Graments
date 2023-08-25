@@ -1,0 +1,343 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    /* background-color: aqua; */
+    /* background-color: #88F7F9-#048FFF;
+     */
+     /* background: linear-gradient(to bottom, #33ccff 0%, #86fff3 100%); */
+}
+
+.bar{
+   
+    top: 0px;
+    position: sticky;
+    height: 37px;width: 101%;
+    background-color: #CDCDCD;
+}
+.left{
+    position: absolute;
+display: inline-block;
+left: 20px;
+width: 200px;
+/* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold'; */
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+margin-top: 8px;
+}
+.mid{
+    position: sticky;
+    top: 0px;
+    display: inline-block;
+     position: absolute; 
+    right: 400px;
+
+width: 500px;
+top: 0px;
+/* height: 10px; */
+
+}
+.right{
+    position: absolute;
+    display: inline-block;
+/* border: 2px solid red; */
+width: 200px; 
+right: 30px;  
+top: 9px; 
+}
+.container{
+    display: inline-block;
+   
+}
+.container li{
+    display: inline-block;
+   
+}
+.container li a{
+    padding :  18px;  
+    color: rgb(105, 104, 104);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+     font-weight: 300px; 
+     font-size: small;
+}
+.container li a:hover{
+    color:rgb(255, 165, 0); ;
+}
+.pic{
+    position: absolute;
+    display: inline-block;
+    
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 100%;
+    top: 44px;
+     background-image: url('jm.jpg');
+    height: 500px;
+    /* background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover;  */
+} 
+.para{
+    position: absolute;
+    display: inline-block;
+    top: 100px;
+    height: 300px;
+    right: 100px;
+    width: 500px;
+    /* border: 2px solid red; */
+    /* margin: 150px; */
+}
+h1{
+    position: absolute;
+    display: inline-block;
+   top: 40px;
+   left: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 100px;
+   font-size: 40px;
+}
+.para2{
+    position: absolute;
+    display: inline-block;
+    top: 110px;
+    height: 50px;
+    right: 70px;
+    width: 350px;
+    /* border: 2px solid red; */
+    color: rgb(138, 138, 138);
+    padding: 15px;
+}
+.button{
+    position: absolute;
+    display: inline-block;
+    top: 190px;
+    height: 30px;
+    left: 70px;
+    width: 140px;
+ /* border: 2px solid red;  */
+    color: rgb(138, 138, 138);
+    padding: 10px;
+}
+button{
+    height: 30px;
+    width: 170px;
+    background-color: rgb(6, 4, 4);
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+button:hover{
+    color: rgb(255, 165, 0);;
+}
+.page2{
+    position: absolute;
+    display: inline-block;
+    /* border: 2px solid red;  */
+    top: 580px;
+    height: 1100px;
+    width: 100%;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: bolder;
+
+}
+span{
+    color:rgb(255, 165, 0); ;
+}
+.page2left{
+    position: absolute;
+display: inline-block;
+/* left: 20px; */
+/* border: 2px solid red;  */
+width: 200px;
+height: 200px;
+/* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold'; */
+font-family: Arial, Helvetica, sans-serif;
+/* font-weight: 700; */
+/* margin-top: 8px; */
+top: 120px;
+left: 180px;
+padding: 20px;
+margin: 10px;
+}
+.page2mid{
+    /* border: 2px solid red;  */
+    display: inline-block;
+     position: absolute; 
+     right: 470px; 
+width: 350px;
+height: 320px;
+ top: 90px; 
+/* height: 10px; */
+
+}
+.page2right{
+    position: absolute;
+    display: inline-block;
+ /* border: 2px solid red;  */
+width: 400px; 
+ right: 40px; 
+ height: 250px; 
+top: 59px;  
+font-family: Arial, Helvetica, sans-serif;
+}
+.pic2{
+    height: 80%;
+    width: 100%;
+}
+.page2right p{
+    padding: 10px;
+    color: gray;
+
+}
+.p1{
+    font-size: larger;
+    font-weight: 400;
+}
+
+
+.page2b{
+    position: absolute;
+    display: inline-block;
+    top: 420px;
+    width: 100%;
+    height: 13.2%;
+    /* border: 2px solid pink; */
+}
+.left2{
+    position: absolute;
+    display: inline-block;
+   
+    /* border: 2px solid rgb(125, 18, 36); */
+    left: 199px;
+    height: 250px;
+    width: 390px;
+
+}
+.right2{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position: absolute;
+    display: inline-block;
+   /* border: 2px solid red; */
+    margin-right: 10px;
+    right: 230px;
+    background-color:#E1F6FF;
+    height: 250px;
+    width: 390px;
+
+}
+.left2 img{
+    height: 100%;
+    width: 100%;
+}
+.l1{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+}
+.l3{
+    font-size: 14px;
+    padding-left: 18px;
+    color: gray;
+}
+.L2{
+    color: #D3D3D3;
+    padding-left: 18px;
+}
+.page3{
+    position: absolute;
+    display: inline-block;
+    top: 700px;
+    width: 100%;
+    height: 340px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid red;  */
+}
+.left3{
+/* border: 2px solid red;  */
+width: 240px;
+height: 230px;
+position: absolute;
+display: inline-block;
+left: 228px;
+padding: 15px;
+}
+.mid3{
+/* border: 2px solid red;  */
+width: 240px;
+height: 230px;
+position: absolute;
+display: inline-block;
+right: 470px;
+padding: 15px;
+}
+.right3{
+  /* border: 2px solid red;  */
+  width: 240px;
+  height: 230px;
+  position: absolute;
+  display: inline-block;  
+  right: 220px;
+  padding: 15px;
+}
+.left3 img{
+height: 100%;
+width: 100%;
+}
+.right3 img{
+    height: 100%;
+    width: 100%;
+}
+.mid3 img{
+    height: 100%;
+    width: 100%;
+}
+.price{
+    position: absolute;
+    display: inline-block;
+    top: 1021px;
+    width: 61%;
+    left: 20%;
+    /* height: 600px; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid red;  */
+}
+.price1{
+position: absolute;
+    display: inline-block;
+
+     /* border: 2px solid red;*/ 
+     width: 230px; 
+}
+.price2{
+position: absolute;
+    display: inline-block;
+    right: 35%;
+     /* border: 2px solid red;  */
+     width: 230px;
+}
+.price3{
+ position: absolute;
+    display: inline-block;
+right: 7px;
+ /* border: 2px solid red;  */
+ width: 230px;
+}
+.price1 span{
+    position: absolute;
+    right: 0px;
+}
+.price2 span{
+    position: absolute;
+    right: 0px;
+}
+.price3 span{
+    position: absolute;
+    right: 0px;
+}

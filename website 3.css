@@ -1,0 +1,265 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#navbar-container {
+    /* border: 2px solid red; */
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    box-shadow: 2px 3px 17px 4px gray;
+}
+
+.navbar {
+    /* border: 2px solid yellow; */
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #navbar-container{
+    content: "";
+    background-color: black;
+    height: 10vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+} */
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    display: flex;
+
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: black;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    /* border: 2px solid green; */
+    width: 280px;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.paragraph {
+    display: flex;
+    color: white;
+    width: 35%;
+    text-align: center;
+    justify-content: flex-end;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+}
+
+/* home section */
+#home-container {
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#home-container::before {
+    content: "";
+    background: url("jm.jpg") no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.89;
+    background-size: cover;
+
+}
+
+.btn {
+    border-radius: 20px;
+    background-color: #9e9696;
+    color: black;
+    padding: 5px 10px;
+    /* font-weight: bold; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    /* background-color:#e1e7e1; */
+    margin-top: 25px;
+}
+
+
+/* story section */
+
+.h-secondary.center {
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 15px; */
+    padding: 10px;
+}
+
+.story.container {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+
+}
+.story.intro{
+    /* border: 2px solid orange; */
+    /* padding-top: 25px; */
+}
+.story.intro h3{
+    padding-top: 30px;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.img{
+    /* border: 2px solid green; */
+}
+
+.ideas {
+    /* border: 2px solid yellow; */
+    width: 300px;
+    /* margin-right: 4px; */
+}
+.ideas h3{
+    /* padding: 2px; */
+    font-size: 1.5rem;
+    font-style: italic;
+    width: 55vh;
+    /* margin-bottom: 4px; */
+    /* text-align: center; */
+}
+.ideas p{
+    margin-top: 10px;
+    padding: 6px;
+    /* text-align: center; */
+}
+
+/* FAQs section */
+
+.FAQs{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+}
+.img-2{
+    /* height: 10px; */
+}
+
+.material{
+    border: 2px solid green;
+    width: 90vh;
+    height: 40vh;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    background-color: #dadfdf;;
+    border-radius: 2px;;
+}
+.material h3{
+    text-align: center;
+    padding: 15px;
+}
+.material p{
+    padding: 25px;
+}
+.material h5{
+    padding-left: 25px;
+}
+
+
+/* products section */
+
+h6{
+    font-size: 2.3rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.products-imgs{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+.product-imgs{
+/* border: 2px solid green; */
+padding: 10px;
+}
+
+
+span{
+    color: orange;
+}
+.product-imgs img{
+    width: 200px;
+    border: 2px solid red;
+}
+
+
+@media screen and(max-width:710){
+    #navbar{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .h-secondary.center{
+        flex-wrap: wrap;
+    }
+    .products-imgs {
+
+        display: flex;
+
+        flex-wrap: wrap;
+    }
+    .product-imgs img{
+        width: 200px;
+        border: 2px solid red;
+    }
+    #navbar-container {
+        display: none;
+    }
+    #navbar-container {
+        display: none;
+    }
+    
+}
+
+.navbar{
+    display: none;
+    border:2px solid red;
+}
